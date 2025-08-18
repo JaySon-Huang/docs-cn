@@ -102,10 +102,15 @@ TiFlash 在 v6.2.0 将数据格式升级到 V3 版本，因此，从 v5.x 或 v6
 - Mix Mode：从 V2 迁移到 V3 的表数量（包括分区数）
 
 **注意**
-如果目标版本为下列 patch 版本，有已知 issue [#9039](https://github.com/pingcap/tiflash/issues/9039) 可能引起升级后 TiFlash 数据损坏
+如果目标版本为下列 patch 版本，存在已知 issue [#9039](https://github.com/pingcap/tiflash/issues/9039) 可能引起升级后 TiFlash 数据损坏
 
 * v6.5.0~v6.5.9
+* v6.6.0
+* v7.0.0
 * v7.1.0~v7.1.5
+* v7.2.0
+* v7.3.0
+* v7.4.0
 * v7.5.0~v7.5.1
 
 建议升级到修复后的 v6.5.10, v7.1.6, v7.5.2 或更新的版本。
